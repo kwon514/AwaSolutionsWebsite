@@ -1,7 +1,7 @@
 ---
-draft: false
+order: 5
 name: "Lia"
-title: "Team Role"
+title: "Product Development Manager"
 avatar: {
     src: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?&fit=crop&w=280",
     alt: "Lia"

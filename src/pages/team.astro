@@ -6,6 +6,7 @@ import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
 
 const publishedTeamMembers = await getCollection("team");
+publishedTeamMembers.sort((a, b) => a.data.order - b.data.order);
 ---
 
 <Layout title="Our Team">
