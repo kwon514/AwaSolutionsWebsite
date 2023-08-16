@@ -17,9 +17,7 @@ const resolvedImageWithDomain = new URL(
 
 const { title } = Astro.props;
 
-const makeTitle = title
-  ? title + " | " + "Awa Solutions"
-  : "Awa Solutions";
+const makeTitle = title ? title + " | " + "Awa Solutions" : "Awa Solutions";
 ---
 
 <!DOCTYPE html>
@@ -45,6 +43,14 @@ const makeTitle = title
         image: {
           alt: "Awa Solutions Homepage Screenshot",
         },
+      }}
+      extend={{
+        meta: [
+          {
+            name: "google-site-verification",
+            content: "Uj6cYWzATYX3dGDQ1oGr8khMTmEjDHoNb4RWi61o1RM",
+          },
+        ],
       }}
     />
   </head>
