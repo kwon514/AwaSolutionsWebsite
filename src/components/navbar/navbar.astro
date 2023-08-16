@@ -27,20 +27,22 @@ const menuitems = [
 <Container>
   <header class="flex flex-col lg:flex-row justify-between items-center my-5">
     <Astronav>
-      <a href="/" class="text-lg">
       <div class="flex w-full lg:w-auto items-center justify-between">
-        <Image
-          class="w-12 h-12 rounded-full"
-          src={logoImage}
-          alt="Awa Solutions Logo"
-        />
-        <span class="font-bold text-slate-800">Awa</span>
-        <span class="text-slate-500">Solutions</span>
+        <a href="/" class="text-lg">
+          <Image
+            class="w-12 h-12 rounded-full"
+            src={logoImage}
+            alt="Awa Solutions Logo"
+          />
+        </a>
+        <a href="/" class="text-lg">
+          <span class="font-bold text-slate-800">Awa</span>
+          <span class="text-slate-500">Solutions</span>
+        </a>
         <div class="block lg:hidden">
           <MenuIcon class="w-4 h-4 text-gray-800" />
         </div>
       </div>
-      </a>
       <MenuItems class="hidden w-full lg:w-auto mt-2 lg:flex lg:mt-0">
         <ul class="flex flex-col lg:flex-row lg:gap-3">
           {
